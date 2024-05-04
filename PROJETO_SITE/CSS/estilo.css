@@ -1,0 +1,56 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+ /* Usando os elementos do HTML  (html-body-p)*/
+html{
+
+font-family: "Montserrat", sans-serif;
+
+}
+
+
+
+body {
+
+background-color:snow;
+margin-bottom: 100px
+
+}
+
+/* Usando uma classe */
+
+.header {
+
+    background-color: cornsilk;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.menu {
+    display: flex;
+
+}
+
+.menu li {
+    list-style: none;
+
+}
+
+.menu li a {
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+
+}
+ /* Criar um retangulo ao passar o mouse em cima */
+.menu a:hover {
+    background-color: blueviolet;
+    color: rgb(255, 255, 255);
+    padding: 10px;
+    border-radius: 5px;
+
+
+}

@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="autor" content="marcos">
+   <meta name="assunto" content=" formulários de pesquisa">
+    <title>Página sobre Rock Nacional </title>
+    <link rel="icon" href="IMG/rock_icon_green.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="./CSS/estilo.css">
+
+
+</head>
+<body>
+    <h1> Página 2 - Formulários de pesquisa 🔍</h1>
+
+<!--menu de navegação-->
+ <header>
+        <nav>
+            <ul>
+                <li><a href="index.html"> Home </a> </li>
+                <li><a href="FOTOS.HTML"> Fotos da História do Rock </a> </li>
+            </ul>
+        </nav>
+        <hr>
+</header>
+
+ <main>
+    <h2>Preencha o Formulário:</h2>
+
+        <form action="/submit-form">  
+
+            <fieldset>
+                <legend>Informações Gerais</legend>
+                <label for="nome">Nome:</label>
+                <input type="text" name="nome" id="nome" placeholder="informe seu nome" autofocus> <br><br>
+                
+               
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" placeholder="informe seu e-mail"><br><br>
+
+
+                <label for="idade">Idade:</label>
+                <input type="number" name="idade" id="idade" placeholder="informe a idade">
+                
+                
+
+
+
+
+
+
+            </fieldset><br><br>
+           
+            <fieldset> 
+                <legend>Informações Sobre a Banda</legend><br>
+                <label for="BandaFavorita">Qual sua banda favorita?</label>
+                <input type="text" name="BandaFavorita" id="BandaFavorita" placeholder="Guns 'n' Roses " ><br> <br>
+
+                <p>Qual é o seu gênero favorito?</p>
+                <select name="genero-favorito" id="genero-favorito">
+                    <option value="rock"> Rock </option>
+                      <option value="alternativo"> alternativo </option>
+                             <option value="classico"> classico </option>
+                             <option value="punk"> punk </option>
+                     <option value="metal"> metal </option>
+                    <option value="outro"> outro </option>
+                </select><br><br>
+
+                <p>Qual é a sua plataforma de streaming de musica favorita?</p>
+                <input type="radio" name="plataforma" id="deezer" value="deezer">deezer<br>
+                <label for="deezer"></label>
+
+                <input type="radio" name="plataforma" id="amazonmusic" value="amazonmusic">amazon music<br>
+                <label for="deezer"></label>
+
+
+                <input type="radio" name="plataforma" id="spotify" value="spotify">
+                <label for="spotify">spotify</label><br><br><br>
+
+                 
+                <label for="dataNascimento">Data de nascimento: </label>
+                <input type="date" name="dataNascimento" id="dataNascimento"><br><br><br>
+
+                <p>Qual dessas bandas de rock nacional você conhece?</p>
+
+                <input type="checkbox" name="bandas" id="legiaoUrbana" value="legiaoUrbana"    >
+                <label for="legiaoUrbana">Legião Urbana</label><br>
+
+                <input type="checkbox" name="bandas" id="capitalInicial" value="capitalInicial" > 
+                <label for="capitalInicial">Capital Inicial</label><br>
+
+                <input type="checkbox" name="bandas" id="nxzero">
+                <label for="nxzero">NxZero</label><br>
+
+                <input type="checkbox" name="bandas" id="restart">
+                <label for="restart">Restart</label><br><br>
+
+
+           
+           
+            </fieldset><br><br>
+
+
+            <fieldset>
+                <legend>Participe da nossa galeria de fotos!!!</legend>
+                    <p>Envie suas fotos em um show para adicionarmos em nossa galeria!</p> 
+
+                <input type="file" name="anexofoto" id="anexofoto"><br><br>
+                    <textarea name="mensagem" id="mensagem" cols="30" rows="10" placeholder="escreva a legenda de sua foto aqui..."></textarea><br><br>
+
+            </fieldset><br><br>
+
+            <button type="submit"> Enviar</button>
+            <button type="reset"> Limpar</button> 
+            
+        
+            </form><br><br>
+
+            <p><a href="FÓRMULÁRIOS.HTML"> Voltar ao Topo</a></p>
+
+
+
+
+       
+
+
+
+
+
+
+
+
+
+ </main>
+
+
+
+</body>
+</html>
